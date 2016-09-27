@@ -67,7 +67,7 @@ int main()
   cout << endl << "your characters are:" << cr; //print char 5
   cin.ignore(1, '\n');                    //ignore the next char, buffer is at char 6
   cr = cin.peek();                        //peek looks at char 6 even though steam is at char 6
-  cout << " and  " << cr;                      // print char 7
+  cout << " and  " << cr;                      // print ch
   
   
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~ QUESTION 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

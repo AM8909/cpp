@@ -8,6 +8,8 @@
 //  Description:
 // 
 // ==========================================================
+//#define NDEBUG       //Disables assert() so program can be used normally
+//#include <cassert>   //Allows assert() function
 //#include <conio.h>   //For function getch() *not needed for linux based compilations
 //#include <cstdlib>  // For several general-purpose functions
 //#include <fstream>  // For file handling
