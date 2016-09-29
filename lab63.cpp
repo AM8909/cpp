@@ -7,8 +7,8 @@
 //  Description:  Compare two user defined variables, use assert to ensure 
 //                both variables are < 0
 // ==========================================================
-#define NDEBUG       //I deactivated the assert functions since assert() 
-                     //is only used for debugging
+//#define NDEBUG     // to deactivated the assert functions since assert() 
+                     // is only used for debugging
 #include <cassert>   //for the assert function
 #include <iostream>  // For cin, cout, and system
 #include <cmath>     //included so I could use the absolute value function
@@ -33,8 +33,7 @@ int main()
   cout << "variable 2: ";
   cin >> var2;
  
-  //test var 1 and 2 with assert as directed, this isn't the intended use
-  assert(var1 > 0);   // of assert but it is a learning point and so is included
+  assert(var1 > 0);  
   assert(var2 > 0);
   
   var3 = var1 - var2;   //this gets the difference between var1 and 2 
