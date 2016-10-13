@@ -32,6 +32,9 @@ int main()
   t = 1;
   n = 1;
   cin >> userIn;
+  //convert negative to postitive
+  //to avoid program crash
+  userIn = abs(userIn);
   
   //check for 1-7
   if (userIn == 1 ||
@@ -49,8 +52,8 @@ int main()
       t = t + 1;
       //check each intiger up to userIn
       if (fmod(userIn, t) == 0 && t < userIn){      
-	cout << "factor " << "\t" 
-	     << "\t" << t << endl;
+	cout << fixed << "factor " 
+	     << t << endl;
 	//n = 0 so cannot be flagged as prime
 	n = 0;
       }
